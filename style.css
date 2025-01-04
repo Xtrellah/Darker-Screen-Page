@@ -1,0 +1,40 @@
+:root {
+    --primary: #F5F5F5;
+    --secondary: #303030;
+}
+
+body {
+    background-color: var(--primary);
+    margin: 0%;
+
+    font-family: "Days One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.banner {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 20px 10px 20px;
+    background-color: var(--secondary);
+}
+
+.banner-content {
+    display: inline-block;
+    gap: 25px;
+    padding-right: 15px;
+}
+
+header span {
+    align-self: center;
+}
+
+header h1 {
+    color: var(--primary);
+    gap: 15px;
+    font-weight: bolder;
+}
+
+.main {
+    margin: 50px 100px 50px 100px;
+}
