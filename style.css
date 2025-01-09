@@ -5,12 +5,48 @@
 
 body {
     background-color: var(--primary);
+    color: var(--secondary);
     margin: 0%;
 
     font-family: "Days One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
+section {
+    padding-bottom: 100px;
+}
+
+.about-content {
+    font-size: x-large;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+p {
+    font-weight: bold;
+}
+
+.example {
+    width: 720px;
+    padding-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption {
+    /* text-align: left; */
+}
+
+/* button {
+    background-color: #95bef8;
+    color: none;
+    padding: 12px;
+    border: none;
+} */
 
 .banner {
     display: flex;
@@ -29,12 +65,42 @@ header span {
     align-self: center;
 }
 
-header h1 {
+.banner h1 {
     color: var(--primary);
     gap: 15px;
     font-weight: bolder;
 }
 
 .main {
-    margin: 50px 100px 50px 100px;
+    margin: 50px 20% 25px 20%;
+    text-align: center;
+}
+
+/* VERSION HISTORY */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid var(--secondary);
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--secondary);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 100px 0px 0px 0px;
 }

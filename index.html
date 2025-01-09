@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,7 @@
 <body>
 
     <header class="banner">
-        <span class="banner-content"><img src="Logo.png" alt="Logo" height="64px"></span>
+        <span class="banner-content"><img src="Logo.png" alt="Logo" height="56px"></span>
         <h1 class="banner-content">Darker Screen</h1>
     </header>
 
@@ -23,25 +24,50 @@
 
         <!-- ABOUT SECTION -->
         <section id="about" class="about">
-            <h1>About</h1>
-            <p>Darker Screen is a program that allows you to darken your screen
-                more than would be possible with built in features of your laptop or PC.</p>
-            <p>A common problem that people have when watching things at night in a dark
-                room is that even on the lowest settings the screen is too bright.</p>
-            <p>This is the reason I built darker screen - and now you can use it too!</p>
+            <!-- <h1>About</h1> -->
+            <span class="about-content">
+                <p>Darker Screen is an application that allows you to darken your screen
+                    more than would be possible with built in features of your laptop or PC.</p>
+                <p>A common problem that people enounter when watching, working or gaming at night,
+                    is a glaring screen in a dark room - and even on the lowest settings possible,
+                    the screen is too bright.
+                <p>This is the reason I built Darker Screen - and now you can use it too!</p>
+            </span>
+            <div class="example">
+                <img src="Example.gif" alt="Example">
+                <p class="caption">Example of darker screen in use</p>
+            </div>
         </section>
-
-        <img src="Example.gif" alt="Example">
 
         <!-- DOWNLOAD SECTION -->
         <section id="download" class="download">
-            <h1>Download</h1>
-            <a href="Darker Screen.exe" target="_blank">Download for Windows</a>
+            <h1>Download for Windows</h1>
+            <!-- <button>Download for Windows</button> -->
+            <a href="Darker Screen.exe" target="_blank">Download the latest version here</a>
         </section>
 
-        <p class="copyright">&copy; Max Estrella 2025</p>
+        <!-- VERSION HISTORY -->
+        <section id="version" class="version">
+            <h1>Version History</h1>
+            <table id="customers">
+                <tr>
+                    <th>Version</th>
+                    <th>Description</th>
+                    <th>Download</th>
+                </tr>
+                <tr>
+                    <td>v1.0</td>
+                    <td>Control panel with slider to control the opacity of the overlay.</td>
+                    <td><a href="Darker Screen.exe" target="_blank">Download</a></td>
+                </tr>
+            </table>
+        </section>
 
     </div>
+
+    <footer>
+        <p class="copyright">&copy; Max Estrella 2025</p>
+    </footer>
 
 </body>
 
